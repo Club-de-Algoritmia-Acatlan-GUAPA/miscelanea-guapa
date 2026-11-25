@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concurso Navideño de Programación Competitiva de Interclubes 2026</title>
+  <meta name="description" content="Convocatoria general: viernes 4 de diciembre de 2026, 13:00 h (CDMX). Concurso presencial por equipos entre clubes de programación competitiva de México.">
+  <meta name="theme-color" content="#0d4535">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='12' y='2' width='8' height='7' rx='1.5' fill='%23f2b63d'/%3E%3Ccircle cx='16' cy='19' r='12' fill='%23c4172f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="saltar" href="#detalles">Saltar a los detalles</a>
+
+  <header class="portada">
+    <div class="contenedor">
+      <h1>Concurso Navideño de Programación Competitiva de Interclubes 2026</h1>
+      <p class="cuando">Viernes <time datetime="2026-12-04T13:00:00-06:00">4 de diciembre, 13:00 h (CDMX)</time></p>
+      <p class="resumen">4 horas, presencial en tu sede, en equipos de hasta 3 integrantes. Participar es gratis.</p>
+      <div class="contador" id="contador" hidden>
+        <p id="t-contador">Tiempo para que inicie el concurso</p>
+        <div class="reloj" role="timer" aria-labelledby="t-contador">
+          <div><span class="cifra" data-unidad="dias">0</span> <span>días</span></div>
+          <div><span class="cifra" data-unidad="horas">00</span> <span>horas</span></div>
+          <div><span class="cifra" data-unidad="minutos">00</span> <span>minutos</span></div>
+          <div><span class="cifra" data-unidad="segundos">00</span> <span>segundos</span></div>
+        </div>
+      </div>
+      <p class="estado" id="estado" hidden></p>
+    </div>
+
+    <section class="clubes" aria-labelledby="t-clubes">
+      <div class="contenedor">
+        <h2 id="t-clubes">Clubes confirmados hasta ahora</h2>
+        <ul class="esferas">
+          <li><span class="esfera"><img class="cuadrado" src="assets/logos/acm-qro.png" width="442" height="419" alt="Logotipo de ACM Qro"></span><strong>ACM Qro</strong></li>
+          <li><span class="esfera"><img class="redondo" src="assets/logos/escom.png" width="600" height="600" alt="Logotipo del Club de Algoritmia ESCOM"></span><strong>Club de Algoritmia ESCOM</strong></li>
+          <li><span class="esfera"><img class="ancho" src="assets/logos/cpc-gallos.png" width="612" height="164" alt="Logotipo de CPC GALLOS"></span><strong>CPC GALLOS</strong></li>
+          <li><span class="esfera"><img class="ancho" src="assets/logos/cabuap.png" width="597" height="191" alt="Logotipo del Club de Algoritmia BUAP"></span><strong>Club de Algoritmia BUAP</strong></li>
+          <li><span class="esfera"><img class="redondo" src="assets/logos/guapa.png" width="600" height="600" alt="Logotipo de GUAPA"></span><strong>GUAPA</strong></li>
+          <li><span class="esfera"><img class="ancho" src="assets/logos/cpu-upaep.png" width="514" height="171" alt="Logotipo de CPU"></span><strong>CPU</strong></li>
+          <li><span class="esfera"><img class="redondo" src="assets/logos/cpc-uaeh.png" width="600" height="600" alt="Logotipo del Club de Programación Competitiva UAEH"></span><strong>CPC UAEH</strong></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <div class="aviso" role="note">
+    <div class="contenedor">
+      <p><strong>Esta es la convocatoria general.</strong> La convocatoria específica de cada sede queda a cargo del jefe de esa sede. Consulta con él la fecha límite de registro.</p>
+    </div>
+  </div>
+
+  <nav aria-label="Secciones de la convocatoria">
+    <ul class="contenedor">
+      <li><a href="#detalles">Detalles</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+      <li><a href="#participantes">Quién participa</a></li>
+      <li><a href="#premiacion">Costo y premios</a></li>
+      <li><a href="#practica">Práctica</a></li>
+      <li><a href="#fotos">Foto y canción</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="contenedor">
+    <section id="detalles" aria-labelledby="t-detalles">
+      <h2 id="t-detalles">De qué se trata</h2>
+      <div class="cuerpo">
+        <p>Es un concurso que se realiza de forma conjunta entre diferentes clubes de programación competitiva de México. El propósito es motivar a los equipos en crecimiento y fomentar el desarrollo de nuevos talentos.</p>
+        <dl class="ficha">
+          <div><dt>Fecha y hora</dt><dd>Viernes 4 de diciembre de 2026, 13:00 h (CDMX)</dd></div>
+          <div><dt>Duración</dt><dd>4 horas</dd></div>
+          <div><dt>Modalidad</dt><dd>Presencial distribuida, en equipos de hasta 3 integrantes</dd></div>
+          <div><dt>Sedes confirmadas</dt><dd>
+            <ul class="sedes"><li>FES Acatlán</li><li>ESCOM</li><li>UAEH</li><li>UAA</li><li>BUAP y CPU</li><li>ITESM Qro</li></ul>
+          </dd></div>
+          <div><dt>Juez en línea</dt><dd>MOJ, con la opción de revelar los resultados con foto y canción usando Animeitor</dd></div>
+          <div><dt>Costo</dt><dd>Gratuito</dd></div>
+          <div><dt>Problemas</dt><dd>Elaborados y revisados por miembros o exmiembros de los clubes participantes</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="calendario" aria-labelledby="t-calendario">
+      <h2 id="t-calendario">Calendario</h2>
+      <div class="cuerpo">
+        <p>Todas las horas corresponden a la CDMX (UTC−6).</p>
+        <ol class="linea">
+          <li data-inicio="2026-11-30T12:00:00-06:00">
+            <time datetime="2026-11-30T12:00:00-06:00">Lunes 30 de noviembre, 12:00 h</time>
+            <p>Abre la competencia de práctica (en línea).</p>
+          </li>
+          <li data-inicio="2026-12-03T12:00:00-06:00">
+            <time datetime="2026-12-03T12:00:00-06:00">Jueves 3 de diciembre, 12:00 h</time>
+            <p>Cierra la competencia de práctica.</p>
+          </li>
+          <li class="principal" data-inicio="2026-12-04T13:00:00-06:00" data-fin="2026-12-04T17:00:00-06:00">
+            <time datetime="2026-12-04T13:00:00-06:00">Viernes 4 de diciembre, 13:00 a 17:00 h</time>
+            <p>Concurso oficial en todas las sedes.</p>
+          </li>
+        </ol>
+        <p><strong>La fecha límite para registrarte la determina el encargado de tu sede.</strong></p>
+      </div>
+    </section>
+
+    <section id="participantes" aria-labelledby="t-participantes">
+      <h2 id="t-participantes">Quién puede participar</h2>
+      <div class="cuerpo">
+        <h3>Equipos oficiales</h3>
+        <p>El público objetivo son las personas que <strong>no han alcanzado los primeros 100 lugares del standing acumulado del GPMX, o que aún no han participado</strong>, pero cuentan con los conocimientos básicos de programación para hacerlo en el siguiente ciclo de competencia.</p>
+        <p>No se busca que el concurso alcance una dificultad equivalente al GPMX del ICPC México, aunque sí se toma como referencia.</p>
+        <p>Un equipo cuyos integrantes no pertenezcan a la universidad sede, pero que sí formen parte del público objetivo, también es un equipo oficial.</p>
+
+        <h3>Equipos invitados (CCL)</h3>
+        <p>Un equipo invitado es aquel cuyos integrantes <strong>no entran en el público objetivo</strong>, pero quieren realizar la competencia.</p>
+        <p>Para integrar a toda la comunidad, los miembros de los clubes interesados en esta iniciativa que no pertenezcan al público objetivo, que decidan no participar en el concurso, o cuando el staff considerado ya sea suficiente, pueden sumarse como equipo invitado, únicamente si el espacio de la sede lo permite.</p>
+        <p>Los equipos invitados:</p>
+        <ul>
+          <li>Deben realizar el concurso de forma presencial en alguna sede.</li>
+          <li>No forman parte del standing oficial.</li>
+          <li>No serán visibles en el standing para los equipos oficiales.</li>
+        </ul>
+        <p class="destacado">Si el espacio de la sede no alcanza para todos los equipos, oficiales e invitados, se da prioridad a los equipos oficiales.</p>
+      </div>
+    </section>
+
+    <section id="premiacion" aria-labelledby="t-premiacion">
+      <h2 id="t-premiacion">Costo y premiación</h2>
+      <div class="cuerpo">
+        <p>La participación es gratuita. La recaudación de fondos para materiales y la entrega de premios quedan a criterio de cada sede, de acuerdo con sus necesidades y posibilidades de organización. Quienes organizamos el evento lo hacemos de manera voluntaria y sin remuneración.</p>
+        <p class="destacado">No habrá premio por parte de la organización para el equipo mejor posicionado en el resultado general.</p>
+        <p>Se sugiere a cada club organizar una convivencia al terminar la competencia, para fortalecer el sentido de pertenencia a la comunidad de programación competitiva en México.</p>
+      </div>
+    </section>
+
+    <section id="practica" aria-labelledby="t-practica">
+      <h2 id="t-practica">Competencia de práctica</h2>
+      <div class="cuerpo">
+        <p>Sirve para que te familiarices con MOJ, el sistema de competencia, en caso de que no lo conozcas.</p>
+        <dl class="ficha">
+          <div><dt>Disponible</dt><dd>Del lunes 30 de noviembre a las 12:00 h al jueves 3 de diciembre a las 12:00 h. El periodo es amplio para que entres en tu tiempo libre.</dd></div>
+          <div><dt>Requisito</dt><dd>Una cuenta en <a href="https://moj.naquadah.com.br">MOJ (moj.naquadah.com.br)</a></dd></div>
+          <div><dt>Modalidad</dt><dd>Desde cualquier lugar; no es presencial.</dd></div>
+          <div><dt>Acceso</dt><dd>Libre para quien tenga el enlace. No necesitas estar registrado en la competencia oficial.</dd></div>
+        </dl>
+        <p>No es requisito para la competencia oficial ni tiene valor en ella. Sus problemas no tienen relación con los del concurso oficial.</p>
+        <p><a class="boton" href="https://cnpci2026-practica.moj.naquadah.com.br/contest/?c=cnpci2026-practica">Abrir la competencia de práctica</a></p>
+      </div>
+    </section>
+
+    <section id="fotos" aria-labelledby="t-fotos">
+      <h2 id="t-fotos">Foto y canción de equipo</h2>
+      <div class="cuerpo">
+        <dl class="ficha">
+          <div><dt>Foto</dt><dd>Formato PNG, JPG o WEBP</dd></div>
+          <div><dt>Canción</dt><dd>Formato MP3, con peso máximo de 15 MB</dd></div>
+        </dl>
+        <p>Las fotos se usarán principalmente en la ceremonia de revelación con Animeitor y también para difundir el evento en redes sociales. Es completamente opcional y depende, además, de la decisión y las posibilidades de cada sede.</p>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="t-contacto">
+      <h2 id="t-contacto">Contacto</h2>
+      <div class="cuerpo">
+        <p>Para dudas generales sobre el concurso, escribe a:</p>
+        <p class="correo"><a href="mailto:programacion.competitiva@acatlan.unam.mx">programacion.competitiva<wbr>@acatlan.unam.mx</a></p>
+        <p>Para el registro y los detalles de tu sede, acude con el jefe de sede.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>Concurso Navideño de Programación Competitiva de Interclubes 2026. Convocatoria general.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
